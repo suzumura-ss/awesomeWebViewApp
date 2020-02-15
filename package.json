@@ -7,11 +7,12 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint App.js --fix --no-eslintrc -c .eslintrc.js"
   },
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.5",
+    "react-native-path": "0.0.5",
     "react-native-webview": "^8.1.0"
   },
   "devDependencies": {
