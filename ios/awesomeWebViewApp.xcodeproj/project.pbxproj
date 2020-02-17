@@ -12,6 +12,10 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		221B9E5323FA5D7E00863809 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 221B9E5223FA5D7E00863809 /* assets */; };
+		221B9E5423FA5D7E00863809 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 221B9E5223FA5D7E00863809 /* assets */; };
+		221B9E5523FA5D7E00863809 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 221B9E5223FA5D7E00863809 /* assets */; };
+		221B9E5623FA5D7E00863809 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 221B9E5223FA5D7E00863809 /* assets */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -53,6 +57,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = awesomeWebViewApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = awesomeWebViewApp/main.m; sourceTree = "<group>"; };
 		1A138A39C03A00A90810733C /* Pods-awesomeWebViewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-awesomeWebViewApp.debug.xcconfig"; path = "Target Support Files/Pods-awesomeWebViewApp/Pods-awesomeWebViewApp.debug.xcconfig"; sourceTree = "<group>"; };
+		221B9E5223FA5D7E00863809 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../webViewAssets/assets; sourceTree = "<group>"; };
 		2240FD83E43198E12B873887 /* libPods-awesomeWebViewAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-awesomeWebViewAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* awesomeWebViewApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "awesomeWebViewApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* awesomeWebViewApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "awesomeWebViewApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +130,7 @@
 		13B07FAE1A68108700A75B9A /* awesomeWebViewApp */ = {
 			isa = PBXGroup;
 			children = (
+				221B9E5223FA5D7E00863809 /* assets */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -194,7 +200,6 @@
 				B2C140E119116711C8B77A03 /* Pods-awesomeWebViewAppTests.debug.xcconfig */,
 				51B93956D5C00F3380FED2AE /* Pods-awesomeWebViewAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +313,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -329,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221B9E5423FA5D7E00863809 /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221B9E5323FA5D7E00863809 /* assets in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -346,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				221B9E5523FA5D7E00863809 /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +362,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221B9E5623FA5D7E00863809 /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

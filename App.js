@@ -21,7 +21,7 @@ export default class App extends React.Component {
     super(prop);
     this.indexHtml = (Platform.OS === 'android')
       ? { uri: 'file:///android_asset/view1/index.html' }
-      : require('./webViewAssets/assets/view1/index.html');
+      : { uri: './assets/view1/index.html' }
   }
   render() {
     const viewConfig = {
@@ -30,7 +30,7 @@ export default class App extends React.Component {
       javaScriptEnabled: true,
       domStorageEnabled: true,
       ignoreSslError: true,
-      // originWhitelist: ['*'],
+      originWhitelist: ['*'],
       // allowFileAccess: true,
       // allowUniversalAccessFromFileURLs: true,
       style: {
