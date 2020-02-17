@@ -1,5 +1,8 @@
 package com.awesomewebviewapp;
 
+import android.os.Bundle;
+import android.webkit.WebView;
+
 import com.facebook.react.ReactActivity;
 
 public class MainActivity extends ReactActivity {
@@ -11,5 +14,13 @@ public class MainActivity extends ReactActivity {
   @Override
   protected String getMainComponentName() {
     return "awesomeWebViewApp";
+  }
+
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+      super.onCreate(savedInstanceState);
+      if (BuildConfig.DEBUG) {
+          WebView.setWebContentsDebuggingEnabled(true);
+      }
   }
 }
