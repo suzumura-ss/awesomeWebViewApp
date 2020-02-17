@@ -21,7 +21,7 @@ const styles = {
 export default class App extends React.Component {
   constructor(prop) {
     super(prop);
-    this.indexHtml = path.resolve(assetsPrefix, 'view-1/index.html');
+    this.indexHtml = path.resolve(assetsPrefix, 'view1/index.html');
   }
   render() {
     const viewConfig = {
